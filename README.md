@@ -16,7 +16,7 @@ There are 3 steps in total in this shared code：
 
 **Step 2**. Train the network with **main_inverse.py**：
 
-**Step 3**. Display your results with **Display_Results.py**. 
+**Step 3**. Display your results with **Display_Results.py**: Remember to replace the trained model name at Line 25. 
 
 
 ## Spine example:
@@ -34,4 +34,4 @@ There are 3 steps in total in this shared code to train and test the model:
 
 **Step 2**. Train the network with **main_inverse.py**.
 
-**Step 3**. Test and Save the test results with the file **Save_data.py**: Remember to replace the trained model name. 
+**Step 3**. Test and Save the test results with the file **Save_data.py**: Remember to replace the trained model name at Line 32. 
