@@ -26,7 +26,7 @@ There are 3 steps in total in this shared code：
 **Data downloading**: Download the data from Zenodo: http://doi.org/10.5281/zenodo.4972170 .
 Replace the files in folders “PSTPM_data” and “Results” with downloaded data.
 
-To display the results, use Results_Demo.m, where we have also offer " mScarlet-I" experimental results as an example.
+To display the results, use **Results_Demo.m**, where we have also offer " mScarlet-I" experimental results as an example.
 
 There are 3 steps in total in this shared code to train and test the model:
 
