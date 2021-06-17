@@ -26,7 +26,7 @@ There are 3 steps in total in this shared code：
 **Data downloading**: Download the data from Zenodo: http://doi.org/10.5281/zenodo.4972170 .
 Put the two folders “PSTPM_data” and “Results” under the path ./Spine_Example.
 
-To display the results, use **Results_Demo.m**, where we have also offered " mScarlet-I" experimental results as an example.
+To display the results, use **Results_Demo.m**, where we have also offered "mScarlet-I" experimental results as an example.
 
 There are 3 steps in total in this shared code to train and test the model:
 
