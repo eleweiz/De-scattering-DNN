@@ -1,6 +1,6 @@
 # De-scattering-DNN
 ## Configurations: 
-**Suggested Environment**: Matlab+Visual Studio Code +Python 3.6.4 + Kereas 2.4.3；
+**Suggested Environment**: Matlab+Visual Studio Code +Python 3.6.4 +  Tensorflow 2.5；
 
 **Data format**: Set mat version in MATLAB to be 7.3 or higher (On the Home tab, in the Environment section, click Preferences. Select MATLAB > General > MAT-Files.) ；
 
