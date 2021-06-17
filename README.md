@@ -10,6 +10,8 @@ We offer two examples for demonstration purpose: Toy example and Spine Example.
 
 ![image](https://user-images.githubusercontent.com/47460581/122369265-9cedc300-cf90-11eb-924b-44d95bd7830f.png)
 
+**Figure 1**: The Ground truth is 3D rotated MNIST digit. The input is TFM images generated with the forward solver from Ground truth. Output is the reconstruction from the proposed method.
+
 There are 3 steps in total in this shared code：
 
 **Step 1**. Generate training data with **main_forward.m**: 
@@ -22,6 +24,8 @@ There are 3 steps in total in this shared code：
 ## Spine example:
 
 ![image](https://user-images.githubusercontent.com/47460581/122369422-c1499f80-cf90-11eb-86bd-cbf624ab1008.png)
+
+**Figure 2**: The Ground truth is 3D mScarlet-I experimental PSTPM stack. The input is mScarlet-I experimental TFM images. Output is the reconstruction from the proposed method.
 
 **Data downloading**: Download the data from Zenodo: http://doi.org/10.5281/zenodo.4972170 .
 Put the two folders, i.e., "PSTPM_data" and "Results", under the path *./Spine_Example*.
