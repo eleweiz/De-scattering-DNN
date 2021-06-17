@@ -24,13 +24,13 @@ There are 3 steps in total in this shared code：
 ![image](https://user-images.githubusercontent.com/47460581/122369422-c1499f80-cf90-11eb-86bd-cbf624ab1008.png)
 
 **Data downloading**: Download the data from Zenodo: http://doi.org/10.5281/zenodo.4972170 .
-Put the two folders “PSTPM_data” and “Results” under the path ./Spine_Example.
+Put the two folders i.e., *PSTPM_data* and *Results*, under the path *./Spine_Example*.
 
 To display the results, use **Results_Demo.m**, where we have also offered "mScarlet-I" experimental results as an example.
 
 There are 3 steps in total in this shared code to train and test the model:
 
-**Step 1**. Generate training data with **main_forward.m**: The PSTPM stack are contained in the "PSTPM_data" folder, where others can put their own PSTPM data in the folder to generate training data.
+**Step 1**. Generate training data with **main_forward.m**: The PSTPM stack are contained in the *PSTPM_data* folder, where others can put their own PSTPM data in the folder to generate training data.
 
 **Step 2**. Train the network with **main_inverse.py**.
 
