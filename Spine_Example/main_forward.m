@@ -40,8 +40,8 @@ for i=1:length(files)
         
         for nn=Count_nn_tem:Count_nn_tem+nn_z-1  % loop to randomly select NN_x*NN_y small patterns from NN_p*NN_p large pattern      
             [temp_1, temp_2] = Patch_Gen_Spine(x_inx_rand,y_inx_rand,I_temp,J_temp,NN_x,NN_y,nn);
-            I_out(kk,:,:,nn)=single((temp_1).'); % save for h5py loading in python
-            I_in(kk,:,:,nn)=single((temp_2).');  % save for h5py loading in python
+            I_out(kk,:,:,nn)=single((temp_1).'); % save for ground truth of training data
+            I_in(kk,:,:,nn)=single((temp_2).');  % save for input of training data
         end
         
         kk=kk+1;
